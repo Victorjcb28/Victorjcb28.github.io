@@ -1,0 +1,124 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
+h1,h4 { font-weight: 700; margin-bottom: 10px; }
+h2,h3 { font-weight: 300; color: #1a53ff; }
+h2 { font-size: 54px; text-align: center; }
+h3 { font-size: 28px; }
+
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+
+/*Nabvar robado*/
+
+.navbar  { border: 0px; background-color: #222222; position: absolute; top: 100%; right: 5%; width: 110px; z-index: 999; }
+.navbar .navbar-collapse { padding: 0px; max-height: none; }
+.navbar .navbar-nav { float: none; }
+.navbar-nav { margin: 0px; }
+.navbar .nav > li { display: block; float: none; height: 80px; }
+.navbar .nav > li a { display: block;  height: 80px; text-align: center; padding-top: 30px; font-weight: 600; color: #FFFFFF; }
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { color: #999999; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: grey; color: black; }
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar { background: #222222; }
+
+.fixed .navbar  { position: fixed; top: 60px; }
+
+.background-gray { background: #434242; }
+
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.jumbotron h2{
+  text-align: center;
+  font-size: 400%;
+  font-weight: 300;
+  padding-top: 230px;
+}
+.jumbotron h4{
+  text-align: center;
+  font-size: 200%;
+  font-weight: 300;
+
+}
+.jumbotron img{
+  width: 100%;
+  height: 610px;
+}
+.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #222222; text-align: center; z-index: 6; }
+.jumbotron .scroll-down .glyphicon {
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-right: 2px;
+	padding-top: 20px;
+
+	animation-name: wiggle;
+	animation-duration: 1.2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.jumbotron .scroll-down:hover .glyphicon { padding-top: 25px; }
+
+#perfil  h2{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 400%;
+  font-weight: 300;
+}
+#habilidades h2{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 400%;
+  font-weight: 300;
+}
+#perfil h3{
+  padding-bottom: 20px;
+}
+#perfil p{
+  text-align: justify;;
+  margin: 0 0 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+#perfil img{
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+#experciencias p{
+  text-align: justify;
+}
+
+
+
+
+#habilidades ul > li { min-height: 30px; padding: 3px 0px; }
+#habilidades ul > li:hover { background: #F2F2F2; }
+#habilidades ul > li .ability-title { display: inline-block; width: 60%; }
+#habilidades ul > li .ability-score { float: right; }
+#habilidades ul > li .ability-score .glyphicon {
+	color: #DFE0E0;
+	font-size: 14px;
+
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#habilidades ul > li .ability-score .glyphicon.filled { color: #1a53ff; }
+
+#habilidades ul > li:hover .ability-score .glyphicon { margin-left: 2px; }
+
+#contact { padding-bottom: 200px; }
+#contact h2, #contact .row * { color: #FFFFFF; }
+#contact a { display: block; line-height: 32px; margin-bottom: 20px; opacity: 0.6; filter:alpha(opacity=60);  }
+#contact a .icon { float: left; margin-right: 20px; }
+#contact a:hover { opacity: 1; filter:alpha(opacity=100); text-decoration: none; }
