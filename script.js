@@ -22,15 +22,15 @@ function applyHeader()
 function lazyLoad(poContainer)
 {
 	/*var lstrSource   = poContainer.attr('data-src');
-	var lstrPosition = poContainer.attr('data-position');
+	 var lstrPosition = poContainer.attr('data-position');
 
-	$('<img>').attr('src', lstrSource).load(function()
-	{
-		poContainer.css('background-image', 'url("'+ lstrSource +'")');
-		poContainer.css('background-position', lstrPosition);
-		poContainer.css('-ms-filter', '"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\')"');
-		poContainer.css('filter', 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\'');
-	});*/
+	 $('<img>').attr('src', lstrSource).load(function()
+	 {
+	 poContainer.css('background-image', 'url("'+ lstrSource +'")');
+	 poContainer.css('background-position', lstrPosition);
+	 poContainer.css('-ms-filter', '"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\')"');
+	 poContainer.css('filter', 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\'');
+	 });*/
 }
 
 /* NAVIGATION FUNCTIONS */
@@ -52,9 +52,9 @@ function applyClickEvent()
 		if( $( $.attr(this, 'href') ).length > 0 )
 		{
 			$('html, body').animate(
-			{
-				scrollTop: $( $.attr(this, 'href') ).offset().top
-			}, 400);
+				{
+					scrollTop: $( $.attr(this, 'href') ).offset().top
+				}, 400);
 		}
 		return false;
 	});
@@ -201,4 +201,4 @@ function searchVersion(pstrDataString)
 	}
 
 	return parseFloat(pstrDataString.substring(lnIndex + this.versionSearchString.length + 1));
-}	
+}
